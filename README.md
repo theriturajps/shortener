@@ -1,30 +1,21 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-![Total Lines](https://img.shields.io/tokei/lines/github/nelsontky/gh-pages-url-shortener?color=green)
-![GitHub stars](https://img.shields.io/github/stars/nelsontky/gh-pages-url-shortener?style=social)
+![GitHub stars](https://img.shields.io/github/stars/theriturajps/shortener?style=social)
 
-# 🔗 GitHub Pages URL Shortener
+# 🔗 URL Shortener
 
 This is a minimal URL shortener that can be entirely hosted on GitHub pages. It
 does not need the maintenance of any servers or databases and can be hosted
 entirely on GitHub for free!
 
-[Yay! We got to the top of HN!](https://news.ycombinator.com/item?id=25110879)
-
-<img src="https://i.imgur.com/ZfD7XGt.png" alt="Top of HN" width="240px">
-
-And on GitHub trending!
-
-<img src="https://i.imgur.com/OkYCSOx.png" alt="GitHub Trending" width="240px">
-
 ## 👨‍🏫 Demo
 
-1. [nlsn.cf/1](https://nlsn.cf/1) should link to this repo.
+1. [Demo Visit](https://theriturajps.github.io/shortener/2)
 
 1. To add a new short link, add an issue with the title being the link you want
    to shorten (including the `http(s)://`) to
-   [https://github.com/nelsontky/gh-pages-url-shortener-db/issues](https://github.com/nelsontky/gh-pages-url-shortener-db/issues).
+   [https://github.com/theriturajps/shortener-db/issues](https://github.com/theriturajps/shortener-db/issues).
 
-1. The newly created short url can be accessed via `nlsn.cf/{issue_number}`
+1. The newly created short url can be accessed via `theriturajps.github.io/shortener/{issue_number}`
 
 ## ☕️ Features
 
@@ -33,12 +24,9 @@ And on GitHub trending!
    pages.
 
 1. There is no need for the pound symbol - short URLs look clean like this:
-   `nlsn.cf/1` instead of looking like this: `nlsn.cf/#1`.
+   `theriturajps.github.io/shortener/1` instead of looking like this: `theriturajps.github.io/shortener/#1`.
 
 ## 💡 How does this work?
-
-_Thanks to @kidGodzilla for the pretty neat explanation
-[here](https://github.com/nelsontky/gh-pages-url-shortener/issues/5#issuecomment-728040879)._
 
 > 1. 404.html handles all requests
 > 1. Small javascript snippet fetches a JSON representation of the GitHub issue
@@ -75,13 +63,4 @@ be reliable. Do proceed at your own risk!_
 1. Push your changes to your forked repo, and your low cost and cool as heck URL
    shortener will be ready for use!
 
-## 🍴 Featured forks
-
-To feature your fork here, edit this section and open a PR!
-
-- [eexit.github.io/s](https://github.com/eexit/s) - Created a bash script that
-  allows for shortening of URLs straight on the command line! Check out his
-  script
-  [here](https://github.com/nelsontky/gh-pages-url-shortener/issues/49#issue-745134937).
-- [gh-short-url](https://github.com/mayandev/gh-short-url) - A npm command line
-  tool that uses GitHub pages to convert short URLs.
+---
